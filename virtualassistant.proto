@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package virtualassistant;
+
+message VirtualAssistantRequest {
+  string message = 1;
+}
+
+message VirtualAssistantResponse {
+  string message = 1;
+}
+
+service VirtualAssistant {
+  rpc SendMessage(VirtualAssistantRequest) returns (VirtualAssistantResponse);
+}
