@@ -1,2 +1,2 @@
-# SD---WebService
+# SD-WebService
 Dupla: Wesley Pereira e Isabela Bruna
